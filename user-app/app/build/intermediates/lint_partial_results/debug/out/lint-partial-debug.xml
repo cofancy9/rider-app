@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.riderapp.ui.LoginActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.black"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="8"
+            column="12"
+            startOffset="297"
+            endLine="8"
+            endColumn="24"
+            endOffset="309"/>
+        <location id="R.color.white"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="9"
+            column="12"
+            startOffset="339"
+            endLine="9"
+            endColumn="24"
+            endOffset="351"/>
+        <location id="R.color.primary_light"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="6"
+            column="12"
+            startOffset="208"
+            endLine="6"
+            endColumn="32"
+            endOffset="228"/>
+        <entry
+            name="model"
+            string="attr[actionBarSize(R)],color[light_gray(D),black(D),accent(U),gray(U),white(D),ic_launcher_background(D),primary_dark(U),primary(U),primary_light(D)],id[manageUsersSwitch(U),passwordEdit(U),otpEdit(U),subtitleText(U),lastNameEdit(U),firstNameLayout(U),logoutButton(U),emailText(D),emailLayout(U),registerLink(U),phoneText(D),registerButton(U),listUsersButton(D),removeCheckBox(D),progressBar(U),recyclerView(U),titleText(U),loginButton(U),listChallengesButton(D),passwordLayout(U),createButton(U),deleteChallengeSwitch(U),otpLayout(U),saveButton(U),createChallengeSwitch(U),emailEdit(U),phoneLayout(U),resendOtp(U),lastNameLayout(U),welcomeText(D),viewAnalyticsSwitch(U),createAdminButton(U),nameText(D),toolbar(U),registerPrompt(U),firstNameEdit(U),adminPermissionsButton(U),updateChallengeSwitch(U),verifyButton(U),phoneEdit(U),listAdminButton(U),action_logout(U)],layout[activity_list_admin(U),item_admin(U),activity_super_admin_dashboard(U),activity_login(U),activity_verify_otp(U),activity_home(U),activity_register(U),activity_create_admin(U),activity_admin_permissions(U)],menu[home_menu(U)],mipmap[ic_launcher_round(U),ic_launcher(U)],string[app_name(U)],style[Theme_RiderApp(U),Theme_MaterialComponents_Light_NoActionBar(R),Widget_MaterialComponents_TextInputLayout_OutlinedBox(R)];37^4^1a^d^43^24^1d^1b^8^2c,38^4^1a^d^43^20^8^30,39^0^3d^2b,3a^1a^43^f^26^12^24^1d,3b^43,41^42^8^7^3;;;"/>
+        <location id="R.color.ic_launcher_background"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="3"
+            column="12"
+            startOffset="62"
+            endLine="3"
+            endColumn="41"
+            endOffset="91"/>
+        <location id="R.color.light_gray"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="11"
+            column="12"
+            startOffset="420"
+            endLine="11"
+            endColumn="29"
+            endOffset="437"/>
+    </map>
+
+</incidents>

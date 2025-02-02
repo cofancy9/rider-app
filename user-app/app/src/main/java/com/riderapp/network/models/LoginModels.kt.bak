@@ -1,0 +1,3 @@
+package com.riderapp.network.models
+
+// No duplicate models here, only additional models specific to Login, if needed

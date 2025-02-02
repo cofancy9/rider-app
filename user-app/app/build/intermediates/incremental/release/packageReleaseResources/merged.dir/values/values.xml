@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FF4081</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#757575</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="light_gray">#EEEEEE</color>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Rider App</string>
+    <style name="Theme.RiderApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+</resources>

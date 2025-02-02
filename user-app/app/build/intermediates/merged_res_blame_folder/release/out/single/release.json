@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "com.riderapp-merged_res-28:/layout_activity_create_admin.xml.flat",
+        "source": "com.riderapp-main-29:/layout/activity_create_admin.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/layout_activity_super_admin_dashboard.xml.flat",
+        "source": "com.riderapp-main-29:/layout/activity_super_admin_dashboard.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.riderapp-main-29:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/layout_item_admin.xml.flat",
+        "source": "com.riderapp-main-29:/layout/item_admin.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.riderapp-main-29:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.riderapp-main-29:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/layout_activity_verify_otp.xml.flat",
+        "source": "com.riderapp-main-29:/layout/activity_verify_otp.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.riderapp-main-29:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.riderapp-main-29:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.riderapp-main-29:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/layout_activity_login.xml.flat",
+        "source": "com.riderapp-main-29:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.riderapp-main-29:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/menu_home_menu.xml.flat",
+        "source": "com.riderapp-main-29:/menu/home_menu.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.riderapp-main-29:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/layout_activity_register.xml.flat",
+        "source": "com.riderapp-main-29:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/layout_activity_home.xml.flat",
+        "source": "com.riderapp-main-29:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/layout_activity_list_admin.xml.flat",
+        "source": "com.riderapp-main-29:/layout/activity_list_admin.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.riderapp-main-29:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.riderapp-main-29:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.riderapp-merged_res-28:/layout_activity_admin_permissions.xml.flat",
+        "source": "com.riderapp-main-29:/layout/activity_admin_permissions.xml"
+    }
+]

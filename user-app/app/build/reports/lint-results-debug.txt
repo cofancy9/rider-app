@@ -1,0 +1,231 @@
+/Users/kumaresh/Desktop/test/test-project/user-app/app/build.gradle:13: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk 33
+        ~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+/Users/kumaresh/Desktop/test/test-project/user-app/app/build.gradle:40: Warning: A newer version of androidx.core:core-ktx than 1.9.0 is available: 1.15.0 [GradleDependency]
+    implementation 'androidx.core:core-ktx:1.9.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/build.gradle:41: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0 [GradleDependency]
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/build.gradle:42: Warning: A newer version of com.google.android.material:material than 1.8.0 is available: 1.12.0 [GradleDependency]
+    implementation 'com.google.android.material:material:1.8.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/build.gradle:43: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.0 [GradleDependency]
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/values/colors.xml:3: Warning: The resource R.color.ic_launcher_background appears to be unused [UnusedResources]
+    <color name="ic_launcher_background">#FFFFFF</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/values/colors.xml:6: Warning: The resource R.color.primary_light appears to be unused [UnusedResources]
+    <color name="primary_light">#BBDEFB</color>
+           ~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/values/colors.xml:8: Warning: The resource R.color.black appears to be unused [UnusedResources]
+    <color name="black">#FF000000</color>
+           ~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/values/colors.xml:9: Warning: The resource R.color.white appears to be unused [UnusedResources]
+    <color name="white">#FFFFFFFF</color>
+           ~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/values/colors.xml:11: Warning: The resource R.color.light_gray appears to be unused [UnusedResources]
+    <color name="light_gray">#EEEEEE</color>
+           ~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/java/com/riderapp/ui/admin/adapters/AdminListAdapter.kt:41: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                nameText.text = "${admin.firstName} ${admin.lastName}"
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/java/com/riderapp/ui/VerifyOtpActivity.kt:27: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        binding.subtitleText.text = "Enter OTP sent to $phoneNumber"
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/java/com/riderapp/ui/VerifyOtpActivity.kt:27: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        binding.subtitleText.text = "Enter OTP sent to $phoneNumber"
+                                     ~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_admin_permissions.xml:13: Warning: Hardcoded string "Create Challenge", should use @string resource [HardcodedText]
+        android:text="Create Challenge" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_admin_permissions.xml:20: Warning: Hardcoded string "Update Challenge", should use @string resource [HardcodedText]
+        android:text="Update Challenge" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_admin_permissions.xml:27: Warning: Hardcoded string "Delete Challenge", should use @string resource [HardcodedText]
+        android:text="Delete Challenge" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_admin_permissions.xml:34: Warning: Hardcoded string "View Analytics", should use @string resource [HardcodedText]
+        android:text="View Analytics" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_admin_permissions.xml:41: Warning: Hardcoded string "Manage Users", should use @string resource [HardcodedText]
+        android:text="Manage Users" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_admin_permissions.xml:48: Warning: Hardcoded string "Save Permissions", should use @string resource [HardcodedText]
+        android:text="Save Permissions" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_create_admin.xml:23: Warning: Hardcoded string "First Name", should use @string resource [HardcodedText]
+                android:hint="First Name"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_create_admin.xml:38: Warning: Hardcoded string "Last Name", should use @string resource [HardcodedText]
+                android:hint="Last Name"
+                ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_create_admin.xml:53: Warning: Hardcoded string "Email", should use @string resource [HardcodedText]
+                android:hint="Email"
+                ~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_create_admin.xml:63: Warning: Hardcoded string "Phone Number", should use @string resource [HardcodedText]
+            android:hint="Phone Number">
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_create_admin.xml:78: Warning: Hardcoded string "Password", should use @string resource [HardcodedText]
+            android:hint="Password">
+            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_create_admin.xml:92: Warning: Hardcoded string "Create Admin", should use @string resource [HardcodedText]
+            android:text="Create Admin" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_home.xml:20: Warning: Hardcoded string "Welcome!", should use @string resource [HardcodedText]
+        android:text="Welcome!"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_login.xml:17: Warning: Hardcoded string "Welcome Back", should use @string resource [HardcodedText]
+            android:text="Welcome Back"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_login.xml:28: Warning: Hardcoded string "Login to continue", should use @string resource [HardcodedText]
+            android:text="Login to continue"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_login.xml:48: Warning: Hardcoded string "Phone Number", should use @string resource [HardcodedText]
+                android:hint="Phone Number"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_login.xml:65: Warning: Hardcoded string "Password", should use @string resource [HardcodedText]
+                android:hint="Password"
+                ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_login.xml:75: Warning: Hardcoded string "Login", should use @string resource [HardcodedText]
+            android:text="Login"
+            ~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_login.xml:84: Warning: Hardcoded string "Don't have an account? ", should use @string resource [HardcodedText]
+            android:text="Don't have an account? "
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_login.xml:92: Warning: Hardcoded string "Register", should use @string resource [HardcodedText]
+            android:text="Register"
+            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_register.xml:17: Warning: Hardcoded string "Create Account", should use @string resource [HardcodedText]
+            android:text="Create Account"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_register.xml:36: Warning: Hardcoded string "First Name", should use @string resource [HardcodedText]
+                android:hint="First Name"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_register.xml:52: Warning: Hardcoded string "Last Name", should use @string resource [HardcodedText]
+                android:hint="Last Name"
+                ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_register.xml:68: Warning: Hardcoded string "Email", should use @string resource [HardcodedText]
+                android:hint="Email"
+                ~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_register.xml:85: Warning: Hardcoded string "Phone Number", should use @string resource [HardcodedText]
+                android:hint="Phone Number"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_register.xml:102: Warning: Hardcoded string "Password", should use @string resource [HardcodedText]
+                android:hint="Password"
+                ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_register.xml:112: Warning: Hardcoded string "Register", should use @string resource [HardcodedText]
+            android:text="Register"
+            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_super_admin_dashboard.xml:13: Warning: Hardcoded string "Create Admin", should use @string resource [HardcodedText]
+        android:text="Create Admin" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_super_admin_dashboard.xml:20: Warning: Hardcoded string "List Admins", should use @string resource [HardcodedText]
+        android:text="List Admins" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_super_admin_dashboard.xml:27: Warning: Hardcoded string "List Users", should use @string resource [HardcodedText]
+        android:text="List Users" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_super_admin_dashboard.xml:34: Warning: Hardcoded string "List Challenges", should use @string resource [HardcodedText]
+        android:text="List Challenges" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_super_admin_dashboard.xml:41: Warning: Hardcoded string "Admin Permissions", should use @string resource [HardcodedText]
+        android:text="Admin Permissions" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_super_admin_dashboard.xml:48: Warning: Hardcoded string "Logout", should use @string resource [HardcodedText]
+        android:text="Logout" />
+        ~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_verify_otp.xml:17: Warning: Hardcoded string "Verify OTP", should use @string resource [HardcodedText]
+            android:text="Verify OTP"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_verify_otp.xml:28: Warning: Hardcoded string "Enter the OTP sent to your phone", should use @string resource [HardcodedText]
+            android:text="Enter the OTP sent to your phone"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_verify_otp.xml:47: Warning: Hardcoded string "Enter OTP", should use @string resource [HardcodedText]
+                android:hint="Enter OTP"
+                ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_verify_otp.xml:58: Warning: Hardcoded string "Verify", should use @string resource [HardcodedText]
+            android:text="Verify"
+            ~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/activity_verify_otp.xml:66: Warning: Hardcoded string "Resend OTP", should use @string resource [HardcodedText]
+            android:text="Resend OTP"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/menu/home_menu.xml:6: Warning: Hardcoded string "Logout", should use @string resource [HardcodedText]
+        android:title="Logout"
+        ~~~~~~~~~~~~~~~~~~~~~~
+/Users/kumaresh/Desktop/test/test-project/user-app/app/src/main/res/layout/item_admin.xml:36: Warning: Hardcoded string "Remove Admin", should use @string resource [HardcodedText]
+            android:text="Remove Admin"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+0 errors, 53 warnings

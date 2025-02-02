@@ -1,0 +1,21 @@
+package com.riderapp.network.models
+
+data class LoginRequest(
+    val phoneNumber: String,
+    val password: String
+)
+
+data class LoginResponse(
+    val status: String,
+    val data: UserData?,
+    val message: String?
+)
+
+data class VerifyOtpRequest(
+    val otp: String
+)
+
+data class VerifyOtpResponse(
+    val status: String,
+    val message: String
+)

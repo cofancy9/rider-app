@@ -1,0 +1,10 @@
+.git
+.gitignore
+node_modules
+npm-debug.log
+test/
+*.test.js
+coverage/
+.env*
+*.log
+!config/service-account-key.json

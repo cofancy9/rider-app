@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.0" type="incidents">
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Create Challenge&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_admin_permissions.xml"
+            line="13"
+            column="9"
+            startOffset="505"
+            endLine="13"
+            endColumn="40"
+            endOffset="536"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Update Challenge&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_admin_permissions.xml"
+            line="20"
+            column="9"
+            startOffset="789"
+            endLine="20"
+            endColumn="40"
+            endOffset="820"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Delete Challenge&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_admin_permissions.xml"
+            line="27"
+            column="9"
+            startOffset="1073"
+            endLine="27"
+            endColumn="40"
+            endOffset="1104"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;View Analytics&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_admin_permissions.xml"
+            line="34"
+            column="9"
+            startOffset="1355"
+            endLine="34"
+            endColumn="38"
+            endOffset="1384"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Manage Users&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_admin_permissions.xml"
+            line="41"
+            column="9"
+            startOffset="1633"
+            endLine="41"
+            endColumn="36"
+            endOffset="1660"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Save Permissions&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_admin_permissions.xml"
+            line="48"
+            column="9"
+            startOffset="1894"
+            endLine="48"
+            endColumn="40"
+            endOffset="1925"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;First Name&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_create_admin.xml"
+            line="23"
+            column="17"
+            startOffset="938"
+            endLine="23"
+            endColumn="42"
+            endOffset="963"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Last Name&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_create_admin.xml"
+            line="38"
+            column="17"
+            startOffset="1652"
+            endLine="38"
+            endColumn="41"
+            endOffset="1676"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Email&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_create_admin.xml"
+            line="53"
+            column="17"
+            startOffset="2359"
+            endLine="53"
+            endColumn="37"
+            endOffset="2379"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Phone Number&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_create_admin.xml"
+            line="63"
+            column="13"
+            startOffset="2840"
+            endLine="63"
+            endColumn="40"
+            endOffset="2867"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Password&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_create_admin.xml"
+            line="78"
+            column="13"
+            startOffset="3540"
+            endLine="78"
+            endColumn="36"
+            endOffset="3563"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Create Admin&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_create_admin.xml"
+            line="92"
+            column="13"
+            startOffset="4160"
+            endLine="92"
+            endColumn="40"
+            endOffset="4187"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Welcome!&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_home.xml"
+            line="20"
+            column="9"
+            startOffset="763"
+            endLine="20"
+            endColumn="32"
+            endOffset="786"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Welcome Back&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="17"
+            column="13"
+            startOffset="625"
+            endLine="17"
+            endColumn="40"
+            endOffset="652"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Login to continue&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="28"
+            column="13"
+            startOffset="1055"
+            endLine="28"
+            endColumn="45"
+            endOffset="1087"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Phone Number&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="48"
+            column="17"
+            startOffset="1999"
+            endLine="48"
+            endColumn="44"
+            endOffset="2026"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Password&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="65"
+            column="17"
+            startOffset="2817"
+            endLine="65"
+            endColumn="40"
+            endOffset="2840"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Login&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="75"
+            column="13"
+            startOffset="3247"
+            endLine="75"
+            endColumn="33"
+            endOffset="3267"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Don&apos;t have an account? &quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="84"
+            column="13"
+            startOffset="3592"
+            endLine="84"
+            endColumn="51"
+            endOffset="3630"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Register&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="92"
+            column="13"
+            startOffset="3928"
+            endLine="92"
+            endColumn="36"
+            endOffset="3951"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Create Account&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="17"
+            column="13"
+            startOffset="625"
+            endLine="17"
+            endColumn="42"
+            endOffset="654"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;First Name&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="36"
+            column="17"
+            startOffset="1522"
+            endLine="36"
+            endColumn="42"
+            endOffset="1547"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Last Name&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="52"
+            column="17"
+            startOffset="2306"
+            endLine="52"
+            endColumn="41"
+            endOffset="2330"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Email&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="68"
+            column="17"
+            startOffset="3082"
+            endLine="68"
+            endColumn="37"
+            endOffset="3102"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Phone Number&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="85"
+            column="17"
+            startOffset="3886"
+            endLine="85"
+            endColumn="44"
+            endOffset="3913"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Password&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="102"
+            column="17"
+            startOffset="4704"
+            endLine="102"
+            endColumn="40"
+            endOffset="4727"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Register&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="112"
+            column="13"
+            startOffset="5137"
+            endLine="112"
+            endColumn="36"
+            endOffset="5160"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Create Admin&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_super_admin_dashboard.xml"
+            line="13"
+            column="9"
+            startOffset="493"
+            endLine="13"
+            endColumn="36"
+            endOffset="520"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;List Admins&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_super_admin_dashboard.xml"
+            line="20"
+            column="9"
+            startOffset="759"
+            endLine="20"
+            endColumn="35"
+            endOffset="785"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;List Users&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_super_admin_dashboard.xml"
+            line="27"
+            column="9"
+            startOffset="1024"
+            endLine="27"
+            endColumn="34"
+            endOffset="1049"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;List Challenges&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_super_admin_dashboard.xml"
+            line="34"
+            column="9"
+            startOffset="1293"
+            endLine="34"
+            endColumn="39"
+            endOffset="1323"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Admin Permissions&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_super_admin_dashboard.xml"
+            line="41"
+            column="9"
+            startOffset="1569"
+            endLine="41"
+            endColumn="41"
+            endOffset="1601"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Logout&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_super_admin_dashboard.xml"
+            line="48"
+            column="9"
+            startOffset="1837"
+            endLine="48"
+            endColumn="30"
+            endOffset="1858"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Verify OTP&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_verify_otp.xml"
+            line="17"
+            column="13"
+            startOffset="625"
+            endLine="17"
+            endColumn="38"
+            endOffset="650"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Enter the OTP sent to your phone&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_verify_otp.xml"
+            line="28"
+            column="13"
+            startOffset="1053"
+            endLine="28"
+            endColumn="60"
+            endOffset="1100"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Enter OTP&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_verify_otp.xml"
+            line="47"
+            column="17"
+            startOffset="1975"
+            endLine="47"
+            endColumn="41"
+            endOffset="1999"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Verify&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_verify_otp.xml"
+            line="58"
+            column="13"
+            startOffset="2439"
+            endLine="58"
+            endColumn="34"
+            endOffset="2460"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Resend OTP&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_verify_otp.xml"
+            line="66"
+            column="13"
+            startOffset="2731"
+            endLine="66"
+            endColumn="38"
+            endOffset="2756"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Remove Admin&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/item_admin.xml"
+            line="36"
+            column="13"
+            startOffset="1250"
+            endLine="36"
+            endColumn="40"
+            endOffset="1277"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Logout&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/menu/home_menu.xml"
+            line="6"
+            column="9"
+            startOffset="219"
+            endLine="6"
+            endColumn="31"
+            endOffset="241"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/riderapp/ui/VerifyOtpActivity.kt"
+            line="27"
+            column="37"
+            startOffset="955"
+            endLine="27"
+            endColumn="69"
+            endOffset="987"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/riderapp/ui/VerifyOtpActivity.kt"
+            line="27"
+            column="38"
+            startOffset="956"
+            endLine="27"
+            endColumn="56"
+            endOffset="974"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/riderapp/ui/admin/adapters/AdminListAdapter.kt"
+            line="41"
+            column="33"
+            startOffset="1287"
+            endLine="41"
+            endColumn="71"
+            endOffset="1325"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 35"
+            oldString="33"
+            replacement="35"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="13"
+            column="9"
+            startOffset="211"
+            endLine="13"
+            endColumn="21"
+            endOffset="223"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.9.0 is available: 1.15.0">
+        <fix-replace
+            description="Change to 1.15.0"
+            family="Update versions"
+            oldString="1.9.0"
+            replacement="1.15.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="40"
+            column="20"
+            startOffset="752"
+            endLine="40"
+            endColumn="50"
+            endOffset="782"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0">
+        <fix-replace
+            description="Change to 1.7.0"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="41"
+            column="20"
+            startOffset="802"
+            endLine="41"
+            endColumn="56"
+            endOffset="838"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.8.0 is available: 1.12.0">
+        <fix-replace
+            description="Change to 1.12.0"
+            family="Update versions"
+            oldString="1.8.0"
+            replacement="1.12.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="42"
+            column="20"
+            startOffset="858"
+            endLine="42"
+            endColumn="64"
+            endOffset="902"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.0">
+        <fix-replace
+            description="Change to 2.2.0"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="43"
+            column="20"
+            startOffset="922"
+            endLine="43"
+            endColumn="70"
+            endOffset="972"/>
+    </incident>
+
+</incidents>

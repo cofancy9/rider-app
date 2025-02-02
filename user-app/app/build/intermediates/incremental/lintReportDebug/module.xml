@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/kumaresh/Desktop/test/test-project/user-app/app"
+    name=":app"
+    type="APP"
+    maven="RiderApp:app:"
+    agpVersion="8.1.0"
+    buildFolder="build"
+    bootClassPath="/Users/kumaresh/Library/Android/sdk/platforms/android-33/android.jar:/Users/kumaresh/Library/Android/sdk/build-tools/33.0.1/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

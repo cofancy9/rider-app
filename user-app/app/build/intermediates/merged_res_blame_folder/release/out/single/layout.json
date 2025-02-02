@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.riderapp-mergeReleaseResources-27:/layout/activity_login.xml",
+        "source": "com.riderapp-main-29:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.riderapp-mergeReleaseResources-27:/layout/activity_verify_otp.xml",
+        "source": "com.riderapp-main-29:/layout/activity_verify_otp.xml"
+    },
+    {
+        "merged": "com.riderapp-mergeReleaseResources-27:/layout/activity_home.xml",
+        "source": "com.riderapp-main-29:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.riderapp-mergeReleaseResources-27:/layout/activity_register.xml",
+        "source": "com.riderapp-main-29:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.riderapp-mergeReleaseResources-27:/layout/item_admin.xml",
+        "source": "com.riderapp-main-29:/layout/item_admin.xml"
+    },
+    {
+        "merged": "com.riderapp-mergeReleaseResources-27:/layout/activity_super_admin_dashboard.xml",
+        "source": "com.riderapp-main-29:/layout/activity_super_admin_dashboard.xml"
+    },
+    {
+        "merged": "com.riderapp-mergeReleaseResources-27:/layout/activity_admin_permissions.xml",
+        "source": "com.riderapp-main-29:/layout/activity_admin_permissions.xml"
+    },
+    {
+        "merged": "com.riderapp-mergeReleaseResources-27:/layout/activity_create_admin.xml",
+        "source": "com.riderapp-main-29:/layout/activity_create_admin.xml"
+    },
+    {
+        "merged": "com.riderapp-mergeReleaseResources-27:/layout/activity_list_admin.xml",
+        "source": "com.riderapp-main-29:/layout/activity_list_admin.xml"
+    }
+]
